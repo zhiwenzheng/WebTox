@@ -152,8 +152,8 @@ func main() {
 
 	// Connect to the network
 	// TODO add more servers (as fallback)
-	pubkey, _ := hex.DecodeString("04119E835DF3E78BACF0F84235B300546AF8B936F035185E2A8E9E0A67C8924F")
-	err = tox.Bootstrap("144.76.60.215", 33445, pubkey)
+	pubkey, _ := hex.DecodeString("02807CF4F8BB8FB390CC3794BDF1E8449E9A8392C5D3F2200019DA9F1E812E46")
+	err = tox.Bootstrap("2a01:4f8:120:4091::3", 33445, pubkey)
 	if err != nil {
 		panic(err)
 	}

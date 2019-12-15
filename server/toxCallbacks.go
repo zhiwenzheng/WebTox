@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/hex"
 	"encoding/json"
-	"github.com/codedust/go-tox"
+	"github.com/zhiwenzheng/go-tox"
 	"log"
 	"os"
 	"time"

@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/codedust/go-tox"
+	"github.com/zhiwenzheng/go-tox"
 	"net/http"
 )
 

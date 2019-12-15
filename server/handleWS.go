@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/codedust/go-tox"
+	"github.com/zhiwenzheng/go-tox"
 	"golang.org/x/net/websocket"
 	"strconv"
 )

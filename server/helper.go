@@ -93,12 +93,8 @@ func storeDefaultHTTPAuth() (string, string, string) {
 		panic("could not generate salt")
 	}
 
-	plainPass, err := httpserve.RandomString(32)
-	if err != nil {
-		panic("could not generate salt")
-	}
-
 	user := CFG_DEFAULT_AUTH_USER
+	plainPass := CFG_DEFAULT_AUTH_PASSWD
 	pass := httpserve.Sha512Sum(plainPass + salt)
 
 	log.Println("Info: Username reset to: ", user)

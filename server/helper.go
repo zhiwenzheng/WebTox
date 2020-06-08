@@ -2,8 +2,8 @@ package main
 
 import (
 	"errors"
-	"github.com/zhiwenzheng/go-httpserve"
-	"github.com/zhiwenzheng/go-tox"
+	"github.com/codedust/go-httpserve"
+	"github.com/codedust/go-tox"
 	"io/ioutil"
 	"log"
 	"os"

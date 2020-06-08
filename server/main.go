@@ -21,7 +21,7 @@
 package main
 
 import (
-	"./persistence"
+	"github.com/zhiwenzheng/WebTox/server/persistence"
 	"encoding/hex"
 	"flag"
 	"fmt"

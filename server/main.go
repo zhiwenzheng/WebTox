@@ -220,6 +220,6 @@ func serveGUI() {
 	// paths that *do not* require authentication
 	mux.Handle("/img/", http.StripPrefix("/img/", http.FileServer(http.Dir(CFG_IMG_DIR))))
 
-	err = httpserve.ListenAndUpgradeTLS(":443", "/etc/ssl/letsencrypt/fullchain.cer",
+	err = httpserve.ListenAndUpgradeTLS(":90", "/etc/ssl/letsencrypt/fullchain.cer",
 		"/etc/ssl/letsencrypt/private.key", mux)
 }
